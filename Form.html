@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<link rel="icon" type="image/x-icon" href="logo1.png">
+		<link rel="stylesheet" type="text/css" href="Format.css"/>
+		<title>Movie Mania</title>
+		
+		<style>
+		.mainDiv{
+			background: rgba(0,0,0,0.5);
+			position:absolute;
+			top:30%;
+			height:auto;
+			width:auto;
+			right:65%;
+			left:5%;
+			margin-top:1%;
+			color:#000000;
+			text-align:left;
+			padding:25px;
+		}
+			
+		.formStyle{
+			width:100%;
+			height:30px;
+			border:none;
+			border-radius:50px;
+			padding:20px;
+			background-color:#f4f9a9;
+		}
+		
+		.formStyle:hover{
+			background-color:#B8E2F2;
+		}
+			
+		.t1{
+			color:black;
+			line-height:20px;
+		}
+		
+		.submitBtn{
+			width:200px;
+			height:40px;
+			border:none;
+			cursor:pointer;
+			text-align:center;
+			background-color:#fa8923;
+			color:black;
+			border-radius:50px;
+			margin-left:20%;
+		}
+		
+		.submitBtn:hover{
+			background-color:white;
+			color:#fa8923;
+			border:4px solid #fa8923;
+		}
+		
+		h3{
+			color:#fa8923;
+		}
+		
+		p{
+			color:#fa8923;
+		}
+		
+		.footer{
+			top:128%;
+			height:auto;
+			right:0;
+			left:0;
+			position:absolute;
+			background-color:#191E24;
+		}
+						
+		.footer1{
+			float:left;
+			margin-top:10px;
+			margin-left:10px;
+			position:absolute;
+		}
+						
+		.footer2{
+			float:right;
+			margin-right:10px;
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+		</style>
+	</head>
+	
+	<body class="bg2">
+		<div class="header">
+			<div class="logoDiv">
+				<img src="logo.png" width="120%" height="120%">
+			</div>
+			
+			<div class="searchDiv">
+				<input type="text" class="searchBox" placeholder="Search...">
+				<button type="submit" class="searchBtn"><img src="icon1.png" width="100%" height="100%">
+				</button>
+			</div>
+			
+			<div class="signInDiv">
+				<a href="Form.html"><button type="submit" class="signBtn">SIGN IN</button></a>
+			</div>
+		</div>
+		
+		<div class="contact">
+			<span title="Contact Us"><a href="Contact.html"><img src="icon6.png" class="icon"></a></span>
+		</div>
+		
+		<div class="navDiv">
+			<ul>
+				<li><a href="About.html">ABOUT US</a></li>
+				<li><a href="Upcoming.html">UPCOMING MOVIES</a></li>
+				<li><a href="TopRated.html">TOP MOVIES</a></li>
+				<li><a href="Home.html">HOME</a></li>
+			</ul>
+		</div>
+		
+		<div class="mainDiv">
+			<form>
+				<h3>Name:</h3>
+				<input type="text" id="register" name="register" class="formStyle">
+				<h3>Email:</h3>
+				<input type="text" id="register" name="register" class="formStyle">
+				<h3>Password:</h3>
+				<input type="password" id="register" name="register" class="formStyle">
+				<h3>Confirm Password:</h3>
+				<input type="password" id="register" name="register" class="formStyle"><br><br>
+				<p><input type="checkbox" id="register" name="register">
+				I accept the Terms of Use & Privacy Policy</p><br>
+				<button type="submit" class="submitBtn">REGISTER NOW</button>
+			</form>
+		</div>
+		
+		<div class="footer">
+			<div class="footer1">
+				<p class="footerTxt">&copy; 2023 Movie Mania. All Rights Reserved</p>
+			</div>
+			<div class="footer2">
+				<table>
+					<tr>
+						<td><span title="Facebook"><a href="#"><img src="icon2.png" class="icon"></a></span></td>
+						<td><span title="Twitter"><a href="#"><img src="icon3.png" class="icon"></a></td>
+						<td><span title="Youtube"><a href="#"><img src="icon4.png" class="icon"></a></td>
+						<td><span title="TikTok"><a href="#"><img src="icon5.png" class="icon"></a></td>
+					</tr>
+				</table>
+			</div>
+	</body>
+</html>

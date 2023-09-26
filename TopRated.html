@@ -1,0 +1,782 @@
+<html>
+	<head>
+		<link rel="icon" type="image/x-icon" href="logo1.png">
+		<link rel="stylesheet" type="text/css" href="Format.css"/>
+		<title>Movie Mania</title>
+		
+		<style>
+			.mainDiv{
+				position:absolute;
+				top:30%;
+				height:auto;
+				width:95%;
+				padding:20px;
+			}
+			
+			.poster{
+				width:190px;
+				height:300px;
+			}
+			
+			.t1{
+				color:white;
+				font-size:1.5em;
+				line-height:40px;
+				font-family:Cambria Math;
+			}
+			
+			.t2{
+				color:white;
+				font-size:1.0em;
+				line-height:20px;
+				font-family:Cambria Math;
+				text-align:justify;
+			}
+			
+			.t3{
+				color:#FD052E;
+				font-size:1.0em;
+				line-height:20px;
+				font-family:Cambria Math;
+			}
+			
+			.mainTbl1{
+				align:center;
+				width:100%;
+				background: rgba(0,0,0,0.5);
+				border:none;
+				margin:auto;
+			}
+			
+			.btn{
+				border:2px solid #FD052E;
+				border-radius:0%;
+				background-color:transparent;
+				color:white;
+				width:auto;
+				height:30px;
+				font-family:Helvetica Rounded;
+			}
+			
+			.btn1{
+				border:none;
+				border-radius:5px;
+				background-color:#DBA506;
+				color:black;
+				width:auto;
+				height:30px;
+				font-family:Impact;
+			}
+			
+			.downloadBtn{
+				width:200px;
+				height:40px;
+				border:none;
+				cursor:pointer;
+				text-align:center;
+				background-color:#FD052E;
+				color:white;
+			}
+			
+			.downloadBtn:hover{
+				color:#FD052E;
+				background-color:white;
+			}
+			
+			.trailerTbl{
+				width:420px;
+				height:300px;
+			}
+			
+			.posterTbl{
+				width:150px;
+				height:150px;
+			}
+			
+			.space{
+				width:80px;
+				background-image:url("bg1.jpg"); 
+				background-repeat: y-repeat;
+				background-size: cover;
+				border:none;
+				margin:auto;
+			}
+			
+			.footer{
+				top:730%;
+				height:auto;
+				right:0;
+				left:0;
+				position:absolute;
+				background-color:#191E24;
+			}
+						
+			.footer1{
+				float:left;
+				margin-top:10px;
+				margin-left:10px;
+				position:absolute;
+			}
+						
+			.footer2{
+				float:right;
+				margin-right:10px;
+				margin-top:10px;
+				margin-bottom:10px;
+			}
+		</style>
+	</head>
+
+	<body class="bg1">
+		<div class="header">
+			<div class="logoDiv">
+				<img src="logo.png" width="120%" height="120%">
+			</div>
+			
+			<div class="searchDiv">
+				<input type="text" class="searchBox" placeholder="Search...">
+				<button type="submit" class="searchBtn"><img src="icon1.png" width="100%" height="100%">
+				</button>
+			</div>
+			
+			<div class="signInDiv">
+				<a href="Form.html"><button type="submit" class="signBtn">SIGN IN</button></a>
+			</div>
+		</div>
+		
+		<div class="contact">
+			<span title="Contact Us"><a href="Contact.html"><img src="icon6.png" class="icon"></a></span>
+		</div>
+		
+		<div class="navDiv">
+			<ul>
+				<li><a href="About.html">ABOUT US</a></li>
+				<li><a href="Upcoming.html">UPCOMING MOVIES</a></li>
+				<li><a href="TopRated.html">TOP MOVIES</a></li>
+				<li><a href="Home.html">HOME</a></li>
+			</ul>
+		</div>
+		
+		<div class="mainDiv">
+			<table class="mainTbl1" cellpadding="15px" rules="none">
+				<tr>
+					<td id="T1" class="posterTbl">
+						<img src="T1.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZlNFpri-Y40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+					<td id="T2" class="space"></td>
+					<td class="posterTbl">
+						<img src="T2.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Zi88i4CpHe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t1"><b>Ant-Man and the Wasp: Quantumania</b></p>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t1"><b>SHAZAM! FURY OF THE GODS</b></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Action</button>
+						<button class="btn">Adventure</button>
+						<button class="btn">2h 5m</button>
+						<button class="btn1">IMDb: 6.4/10</button>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Action</button>
+						<button class="btn">Adventure</button>
+						<button class="btn">2h 10m</button>
+						<button class="btn1">IMDb: 6.7/10</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t2">Ant-Man and the Wasp find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that pushes them beyond the limits of what they thought was possible.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">February 17, 2023 (USA)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Peyton Reed</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Budget:</p></td>
+								<td><p class="t3">200 million USD</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Casting director:</p></td>
+								<td><p class="t3">Sarah Finn</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Bill Pope</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Costume design:</p></td>
+								<td><p class="t3">Sammy Sheldon</p></td>
+							</tr>
+						</table>						
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t2">Bestowed with the powers of the gods, Billy Batson and his fellow foster kids are still learning how to juggle teenage life with their adult superhero alter egos. When a vengeful trio of ancient gods arrives on Earth in search of the magic stolen from them long ago, Shazam and his allies get thrust into a battle for their superpowers, their lives, and the fate of the world.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">March 17, 2023 (USA)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">David F. Sandberg</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Casting director:</p></td>
+								<td><p class="t3">Rich Delia</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Gyula Pados</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Costume design:</p></td>
+								<td><p class="t3">Louise Mingenbach</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Distributed by:</p></td>
+								<td><p class="t3">Warner Bros. Pictures</p></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=Ant-Man+and+the+Wasp%3A+Quantumania&ref=nb_sb_noss" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=SHAZAM%21+FURY+OF+THE+GODS&crid=1P54ANTB9YA39&sprefix=shazam+fury+of+the+gods%2Caps%2C1352&ref=nb_sb_noss_1" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+				</tr>
+			</table>
+			
+			<br><br><br><br>
+			
+			<table class="mainTbl1" cellpadding="15px" rules="none">
+				<tr>
+					<td id="T3" class="posterTbl">
+						<img src="T3.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/bHXejJq5vr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+					<td class="space"></td>
+					<td id="T4" class="posterTbl">
+						<img src="T4.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/qEVUtrk8_B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t1"><b>65</b></p>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t1"><b>John Wick: Chapter 4</b></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Action</button>
+						<button class="btn">Sci-fi</button>
+						<button class="btn">1h 33m</button>
+						<button class="btn1">IMDb: 5.7/10</button>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Action</button>
+						<button class="btn">Neo-noir</button>
+						<button class="btn">2h 49m</button>
+						<button class="btn1">IMDb: 9.2/10</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t2">After a catastrophic crash on an unknown planet, pilot Mills quickly discovers he's actually stranded on Earth -- 65 million years ago. Now, with only one chance at a rescue, Mills and the only other survivor, Koa, must make their way across an unknown terrain riddled with dangerous prehistoric creatures.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">March 10, 2023 (USA)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Directors:</p></td>
+								<td><p class="t3">Bryan Woods, Scott Beck</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Salvatore Totino</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Distributed by:</p></td>
+								<td><p class="t3">Sony Pictures Releasing</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Editor:</p></td>
+								<td><p class="t3">Josh Schaeffer</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Executive producers:</p></td>
+								<td><p class="t3">Jason Cloth, Aaron L. Gilbert, Maryann Brandon, Douglas C. Merrifield</p></td>
+							</tr>
+						</table>						
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t2">With the price on his head ever increasing, legendary hit man John Wick takes his fight against the High Table global as he seeks out the most powerful players in the underworld, from New York to Paris to Japan to Berlin.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">May 27, 2022 (USA)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Chad Stahelski</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Dan Laustsen</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Costume design:</p></td>
+								<td><p class="t3">Paco Delgado</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Distributed by:</p></td>
+								<td><p class="t3">Lionsgate Films</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Editor:</p></td>
+								<td><p class="t3">Evan Schiff</p></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=65+movie+2023&crid=2BRUQCPYQ9VDX&sprefix=65+movie%2Caps%2C523&ref=nb_sb_ss_ts-doa-p_2_7" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=john+wick+chapter+4+movie&crid=23PV37E6U28BR&sprefix=John+Wick%3A+Chapter+4%2Caps%2C934&ref=nb_sb_ss_ts-doa-p_1_19" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+				</tr>
+			</table>
+			
+			<br><br><br><br>
+			
+			<table class="mainTbl1" cellpadding="15px" rules="none">
+				<tr>
+					<td id="T5" class="posterTbl">
+						<img src="T5.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/AzGEYudLYHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+					<td class="space"></td>
+					<td id="T6" class="posterTbl">
+						<img src="T6.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/AHmCH7iB_IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t1"><b>Operation Fortune: Ruse de Guerre</b></p>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t1"><b>Creed III</b></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Action</button>
+						<button class="btn">Comedy</button>
+						<button class="btn">1h 54m</button>
+						<button class="btn1">IMDb: 6.4/10</button>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Drama</button>
+						<button class="btn">Sport</button>
+						<button class="btn">1h 57m</button>
+						<button class="btn1">IMDb: 7.3/10</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t2">Elite spy Orson Fortune must track down and stop the sale of a deadly new weapons technology wielded by billionaire arms broker Greg Simmonds. Reluctantly teamed up with some of the world's best operatives, Fortune and his crew recruit Hollywood's biggest movie star, Danny Francesco, to help them on their globe-trotting mission to save the world.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">January 13, 2023 (Türkiye)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Guy Ritchie</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Budget:</p></td>
+								<td><p class="t3">50 million USD</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Alan Stewart</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Distributed by:</p></td>
+								<td><p class="t3">Lionsgate Films, STX Entertainment</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Editor:</p></td>
+								<td><p class="t3">James Herbert</p></td>
+							</tr>
+						</table>						
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t2">Still dominating the boxing world, Adonis Creed is thriving in his career and family life. When Damian, a childhood friend and former boxing prodigy resurfaces after serving time in prison, he's eager to prove that he deserves his shot in the ring. The face-off between former friends is more than just a fight. To settle the score, Adonis must put his future on the line to battle Damian -- a fighter who has nothing to lose.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">March 3, 2023 (USA)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Michael B. Jordan</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Budget:</p></td>
+								<td><p class="t3">75 million USD</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Kramer Morgenthau</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Distributed by:</p></td>
+								<td><p class="t3">Metro-Goldwyn-Mayer, Warner Bros. Pictures</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Editors:</p></td>
+								<td><p class="t3">Jessica Baclesse, Tyler Nelson</p></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=operation+fortune+ruse+de+guerre+movie+2023&crid=3DIZBW1NHS1BF&sprefix=Operation+Fortune%3A+Ruse+de+Guerre+movie%2Caps%2C951&ref=nb_sb_ss_ts-doa-p_2_38" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=Creed+III+movie+2023&crid=245I967IML1DR&sprefix=creed+iii+movie+2023%2Caps%2C857&ref=nb_sb_noss_1" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+				</tr>
+			</table>
+			
+			<br><br><br><br>
+			
+			<table class="mainTbl1" cellpadding="15px" rules="none">
+				<tr>
+					<td id="T7" class="posterTbl">
+						<img src="T7.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/PVnIMvVEkrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+					<td class="space"></td>
+					<td id="T8" class="posterTbl">
+						<img src="T8.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/pCMHc-IFAB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t1"><b>Infinity Pool</b></p>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t1"><b>You People</b></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Horror</button>
+						<button class="btn">Sci-fi</button>
+						<button class="btn">1h 58m</button>
+						<button class="btn1">IMDb: 6.1/10</button>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Buddy</button>
+						<button class="btn">1h 58m</button>
+						<button class="btn1">IMDb: 5.5/10</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t2">Guided by a seductive and mysterious woman, a couple on vacation venture outside the resort grounds and find themselves in a culture filled with violence, hedonism and untold horror. A tragic accident soon leaves them facing a zero tolerance policy for crime: either you'll be executed, or, if you're rich enough to afford it, you can watch yourself die instead.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">January 27, 2023 (Canada)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Brandon Cronenberg</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Screenplay:</p></td>
+								<td><p class="t3">Brandon Cronenberg</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Karim Hussain</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Distributed by:</p></td>
+								<td><p class="t3">Neon, Elevation Pictures</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Edited by:</p></td>
+								<td><p class="t3">James Vandewater</p></td>
+							</tr>
+						</table>						
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t2">A new couple and their families reckon with modern love amid culture clashes, societal expectations and generational differences.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Initial release:</p></td>
+								<td><p class="t3">January 17, 2023</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Kenya Barris</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Mark Doering-Powell</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Distributed by:</p></td>
+								<td><p class="t3">Netflix</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Executive producers:</p></td>
+								<td><p class="t3">David Hyman, Andy Berman, Hale Rothstein, MORE</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Language:</p></td>
+								<td><p class="t3">English</p></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=Infinity+Pool+movie+2023&ref=nb_sb_noss" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=You+People+movie+2023&crid=3REVOC8UHN24K&sprefix=infinity+pool+movie+2023%2Caps%2C1427&ref=nb_sb_noss_1" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+				</tr>
+			</table>
+			
+			<br><br><br><br>
+			
+			<table class="mainTbl1" cellpadding="15px" rules="none">
+				<tr>
+					<td id="T9" class="posterTbl">
+						<img src="T9.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/b_uzRrgdcyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+					<td class="space"></td>
+					<td id="T10" class="posterTbl">
+						<img src="T10.jpg" width="100%" height="100%" class="poster">
+					</td>
+					<td class="trailerTbl">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/eOajigW8hmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t1"><b>Bottoms</b></p>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t1"><b>House Party</b></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Comedy</button>
+						<button class="btn">1h 32m</button>
+						<button class="btn1">IMDb: 8.3/10</button>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<button class="btn">2023</button>
+						<button class="btn">Comedy</button>
+						<button class="btn">1h 40m</button>
+						<button class="btn1">IMDb: 4.4/10</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p class="t2">Two unpopular, queer high school students start a fight club to have sex before graduation.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">March 11, 2023</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Emma Seligman</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Art director:</p></td>
+								<td><p class="t3">Michelle Jones</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Budget:</p></td>
+								<td><p class="t3">14.7 million USD</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Casting director:</p></td>
+								<td><p class="t3">Maribeth Fox</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Maria Rusche</p></td>
+							</tr>
+						</table>						
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<p class="t2">Aspiring club promoters and best buddies Damon and Kevin are barely keeping things together. Out of money, down on their luck and about to lose the roofs over their heads, they need a huge windfall to make their problems go away. They soon decide to host the party of the year at an exclusive mansion, which just happens to belong to none other than NBA superstar LeBron James.</p><br>
+						<table>
+							<tr>
+								<td><p class="t2">Release date:</p></td>
+								<td><p class="t3">January 13, 2023 (USA)</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Director:</p></td>
+								<td><p class="t3">Calmatic</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Art director:</p></td>
+								<td><p class="t3">Frances Lynn Hernandez</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Casting director:</p></td>
+								<td><p class="t3">Kim Coleman</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Cinematography:</p></td>
+								<td><p class="t3">Andrew Huebscher</p></td>
+							</tr>
+							<tr>
+								<td><p class="t2">Costume design:</p></td>
+								<td><p class="t3">Derica Cole Washington</p></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=Bottoms+movie+2023&crid=11RE6TMIGNH4D&sprefix=bottoms+movie+2023%2Caps%2C716&ref=nb_sb_noss_1" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+					<td class="space"></td>
+					<td colspan="2">
+						<a href="https://www.amazon.com/s?k=House+Party+movie+2023&crid=37CSC243Y0POZ&sprefix=house+party+movie+2023%2Caps%2C1240&ref=nb_sb_noss_1" target="_blank"><button class="downloadBtn">DOWNLOAD NOW!</button></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		
+		
+		
+		<div class="footer">
+			<div class="footer1">
+				<p class="footerTxt">&copy; 2023 <em>Movie Mania</em>. All Rights Reserved</p>
+			</div>
+			<div class="footer2">
+				<table>
+					<tr>
+						<td><a href="#"><img src="icon2.png" class="icon"></a></td>
+						<td><a href="#"><img src="icon3.png" class="icon"></a></td>
+						<td><a href="#"><img src="icon4.png" class="icon"></a></td>
+						<td><a href="#"><img src="icon5.png" class="icon"></a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+	</body>
+</html>
